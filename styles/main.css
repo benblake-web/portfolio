@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+}
+.header {
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header > .logo img {
+   width: 150px;
+   padding: 15px;
+}
+.header > .nav {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+.header > .nav a:link {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+.main {
+    background-color: lightgray;
+}
+.main > .about {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+}
+.main > .about > .p {
+    font-size: 35px;
+    padding-left: 75px;
+}
+.main > .about > .image img {
+    width: 300px;
+    padding-left: 135px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.main > .websites {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.main > .websites img{
+    width: 250px;
+}
+.main > .certifications {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+.contact > .heading {
+    margin-bottom: -30px;
+}
+.contact > .information {
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+}
+.footer {
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+.footer > .link {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.footer > .link a:link {
+    text-decoration: none;
+}
+.footer > .copy {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
