@@ -1,0 +1,7 @@
+.certifications > .design {
+
+}
+.certifications > .code {
+    display: flex;
+    justify-content: center;
+}
