@@ -1,11 +1,12 @@
 body{
     margin: 0px;
     background-color: #2C2F33;
+    padding-left: 215px;
 }
-.header img {
+.nav img {
    width: 68%;
 }
-.header {
+.nav {
     display: flex;
     align-items: center;
     padding-right: 15px;
@@ -22,16 +23,29 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-.header a:link {
+.nav a:link {
     padding-left: 25px;
     padding-right: 25px;
     text-decoration: none;
     color: whitesmoke;
 }
-.header a:visited {
+.nav a:visited {
     padding-left: 25px;
     padding-right: 25px;
     text-decoration: none;
     color: white;
 }
-
+.nav a:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: #29ABE2;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+.header {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
