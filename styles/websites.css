@@ -1,0 +1,18 @@
+.websites h2 {
+    color: white;
+    padding-left: 200px;
+}
+.websites > .built {
+    display: flex;
+    flex-direction: column;
+}
+.websites > .built > .built-websites {
+    display: flex;
+    justify-content: center;
+}
+.websites > .built > .built-websites > .devcamp {
+    padding-right: 90px;
+}
+.websites > .updating .updating-websites {
+    padding-left: 70px;
+}
