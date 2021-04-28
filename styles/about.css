@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 40px;
+    text-indent: 70px;
+}
+.about > .photo {
+    padding-right: 75px;
+}
+.about > .paragrapgh {
+    padding-right: 75px;
+    padding-top: 30px;
+}
