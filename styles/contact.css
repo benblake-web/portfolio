@@ -1,0 +1,34 @@
+.information {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    line-height: 60px; 
+    flex-direction: column;
+    align-items: center;
+}
+.information img {
+    padding-bottom: 100px;
+}
+.information > .info {
+    border: solid 9px #29ABE2;
+    transition: border-width 1.0s linear;
+    padding-right: 40px;
+    padding-left: 80px;
+    width: 725px;
+}
+.information > .info a:link {
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+.information > .info a:visited {
+    text-decoration: none;
+    color: white;
+}
+.information > .info a:hover {
+    text-decoration: none;
+    color: #29ABE2;
+    letter-spacing: 2px;
+    transition: .5s;
+}
