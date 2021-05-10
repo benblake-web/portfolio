@@ -3,3 +3,16 @@
     justify-content: center;
     padding-top: 25px;
 }
+.quote {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: 'Itim', cursive;
+}
+@media screen and (max-width: 1225px) {
+    .photo {
+        
+    }
+}

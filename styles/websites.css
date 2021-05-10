@@ -16,3 +16,15 @@
 .websites > .updating .updating-websites {
     padding-left: 70px;
 }
+@media screen and (max-width: 1800px) {
+    .websites > .built > .built-websites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .websites > .updating {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -6,6 +6,8 @@
     line-height: 60px; 
     flex-direction: column;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .information img {
     padding-bottom: 100px;
@@ -31,4 +33,18 @@
     color: #29ABE2;
     letter-spacing: 2px;
     transition: .5s;
+}
+@media screen and (max-width: 1160px) {
+    .information > .info {
+        border-left: 0px;
+        border-right: 0px;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .information > .info {
+        width: 300px;
+        padding-left: 0px;
+        font-size: 25px;
+    }
 }
