@@ -11,3 +11,8 @@
     padding-top: 40px;
     font-family: 'Itim', cursive;
 }
+@media screen and (max-width: 1225px) {
+    .photo {
+        
+    }
+}

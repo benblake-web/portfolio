@@ -60,3 +60,15 @@
     display: flex;
     flex-direction: column;
 }
+@media screen and (max-width: 1300px) {
+    .certifications > .design {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .certifications > .code {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
