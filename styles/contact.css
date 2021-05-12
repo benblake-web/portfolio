@@ -8,6 +8,7 @@
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 .information img {
     padding-bottom: 100px;
@@ -46,5 +47,25 @@
         width: 300px;
         padding-left: 0px;
         font-size: 25px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .information > .info {
+        padding-left: 115px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .information img {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .information > .info {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .information > .info {
+        padding-left: 90px;
     }
 }
