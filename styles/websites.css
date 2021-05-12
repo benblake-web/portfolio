@@ -27,4 +27,34 @@
         flex-direction: column;
         align-items: center;
     }
+    .websites > .built {
+        display: flex;
+        align-items: center;
+    }
+    .websites > .updating .updating-websites {
+        padding-left: 0px;
+    }
+    .websites > .built > .built-websites > .devcamp {
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
+    .websites h2 {
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .websites > .built > .built-websites img {
+        width: 532px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .websites > .built > .built-websites > .devcamp {
+        width: 250px;
+    }
+    .websites > .built > .built-websites img {
+        width: 250px;
+    }
+    .websites > .updating .updating-websites img {
+        width: 250px;
+    }
 }

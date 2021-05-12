@@ -11,8 +11,16 @@
     padding-top: 40px;
     font-family: 'Itim', cursive;
 }
-@media screen and (max-width: 1225px) {
-    .photo {
-        
+@media screen and (max-width: 1250px) {
+    .photo img {
+        width: 700px;
+    }
+    .quote p {
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width:945px) {
+    .photo img {
+        width: 300px;
     }
 }
